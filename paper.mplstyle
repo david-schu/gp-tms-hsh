@@ -1,0 +1,14 @@
+text.usetex: True
+font.family: serif
+axes.labelsize: 8
+axes.titlesize: 8
+font.size: 8
+legend.fontsize: 8
+legend.title_fontsize: 8
+xtick.labelsize: 8
+ytick.labelsize: 8
+savefig.dpi: 1000
+savefig.bbox: tight
+savefig.pad_inches: 0.01
+savefig.transparent: True
+text.latex.preamble: \usepackage{bm}
