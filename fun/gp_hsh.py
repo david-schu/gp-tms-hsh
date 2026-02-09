@@ -162,7 +162,7 @@ class GP_HSH:
 
     def _ucb_selection(self):
 
-        Ucb = analytic.UpperConfidenceBound(model=self.gp_model, beta=10+np.e**(-len(self.sampled_loc_idcs)/10+2))
+        Ucb = analytic.UpperConfidenceBound(model=self.gp_model, beta=10+np.e**(-len(self.sampled_loc_idcs)/10+3))
 
         ucbs = Ucb(self.all_locs[self.available_loc_idcs].unsqueeze(1))
         next_state_index = self.available_loc_idcs[np.random.choice(np.argwhere(ucbs==ucbs.max())[0])]

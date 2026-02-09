@@ -70,7 +70,7 @@ for j in tqdm(range(len(params))):
 
     # initiliaze optimization
     if n_init:
-        grid_idcs = get_grid_idcs(locs, num_points=n_init, method='kmeans', seed=seed)
+        grid_idcs = get_grid_idcs(locs, num_points=n_init, seed=seed)
     else: 
         grid_idcs = []
 
@@ -98,4 +98,4 @@ for j in tqdm(range(len(params))):
                                 'dist_ang': dist_ang,
                                 'nmse': nmse}
             
-result.to_pickle(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'hs_hunting_exp.pkl'))
+result.to_pickle(os.path.join(os.path.dirname(os.path.realpath(__file__)), data_path, 'hs_hunting_exp.pkl'))
