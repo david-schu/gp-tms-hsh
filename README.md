@@ -3,20 +3,20 @@
 This repository contains scripts for our manuscript entitled "Efficient Gaussian Process-based Motor Hotspot Hunting with Concurrent Optimazation of TMS Location and Orientation".
 
 If you want to use data or analysis scripts in a research publication,
-please cite [our paper] (<add link here after publication>)
+please cite [our paper] (<add https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013994>)
 
 ## 1. Citation
 <add citation here after publication> 
 ~~~
-@article{schultheiss2025efficient,
-  title={Efficient Gaussian Process-based Motor Hotspot Hunting with Concurrent Optimazation of TMS Location and Orientation},
-  author={Schultheiss DL,  Turi Z, Vlachos A, Boedecker J},
-  journal={},
-  volume={},
-  number={},
-  pages={},
-  year={2025},
-  publisher={}
+@article{schultheiss2026efficient,
+  title={Efficient Gaussian process-based motor hotspot hunting with concurrent optimization of TMS coil location and orientation},
+  author={Schultheiss, David Luis and Turi, Zsolt and Boedecker, Joschka and Vlachos, Andreas},
+  journal={PLOS Computational Biology},
+  volume={22},
+  number={2},
+  pages={e1013994},
+  year={2026},
+  publisher={Public Library of Science San Francisco, CA USA}
 }
 ~~~
 
